@@ -1,0 +1,20 @@
+/** @typedef {import {'prettier'}.Config} Prettier.Config */
+
+/** @type {PrettierConfig}*/
+const config = {
+  plugins: ["prettier-plugin-tailwindcss"],
+  printWidth: 80,
+  tabWidth: 2,
+  useTabs: true,
+  semi: true,
+  singLeQuote: true,
+  quoteProps: "as-needed",
+  jsxSingleQuote: false,
+  trailingComma: "es5",
+  bracketSpacing: true,
+  arrowParens: "always",
+  endOfLine: "auto",
+  bracketSameline: false,
+};
+
+export default config;
